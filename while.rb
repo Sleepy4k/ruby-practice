@@ -16,3 +16,19 @@ until i < 1
   puts i
   i -= 1
 end
+
+# in while loop we can make while (true) do loop
+
+x = 0
+
+while x < 5 do
+  puts "accessing index #{x}"
+  x += 1
+end
+
+# same with until loop we can make until (false) do loop
+
+until x < 1 do
+  puts "accessing index #{x}"
+  x -= 1
+end
